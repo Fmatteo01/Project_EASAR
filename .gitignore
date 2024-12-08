@@ -1,0 +1,17 @@
+# Escludere file specifici
+
+asr-wav2vec2-librispeech.mat
+trainingData.mat
+speakerData.mat
+ubm.mat
+
+# Escludere tutti i file con una determinata estensione
+*.docx
+*.txt
+
+# Escludere una cartella intera
+Speaker_Calibration/
+speech_commands_v0.02/
+
+
+# Escludere file o cartelle generati automaticamente
